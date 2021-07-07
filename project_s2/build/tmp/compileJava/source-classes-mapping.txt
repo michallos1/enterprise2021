@@ -30,8 +30,8 @@ org/example/dao/AuthorDao.java
  org.example.dao.AuthorDao
 org/example/dao/BookDao.java
  org.example.dao.BookDao
-org/example/controller/RegistrationController.java
- org.example.controller.RegistrationController
+org/example/controller/HomeController.java
+ org.example.controller.HomeController
 org/example/controller/AuthorController.java
  org.example.controller.AuthorController
 org/example/services/AuthorService.java
@@ -46,9 +46,9 @@ org/example/dao/CategoryDaoImpl.java
  org.example.dao.CategoryDaoImpl
 org/example/services/AuthorServiceImpl.java
  org.example.services.AuthorServiceImpl
-org/example/entity/Book.java
- org.example.entity.Book
+org/example/controller/RegistrationController.java
+ org.example.controller.RegistrationController
 org/example/entity/Author.java
  org.example.entity.Author
-org/example/controller/HomeController.java
- org.example.controller.HomeController
+org/example/entity/Book.java
+ org.example.entity.Book
