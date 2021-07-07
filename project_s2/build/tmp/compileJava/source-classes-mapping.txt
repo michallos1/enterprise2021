@@ -1,0 +1,54 @@
+org/example/services/CategoryService.java
+ org.example.services.CategoryService
+org/example/controller/BookController.java
+ org.example.controller.BookController
+org/example/services/CategoryServiceImpl.java
+ org.example.services.CategoryServiceImpl
+org/example/services/BookServiceImpl.java
+ org.example.services.BookServiceImpl
+org/example/entity/AuthorityPK.java
+ org.example.entity.AuthorityPK
+org/example/dao/CategoryDao.java
+ org.example.dao.CategoryDao
+org/example/services/UserServiceImpl.java
+ org.example.services.UserServiceImpl
+org/example/entity/Authority.java
+ org.example.entity.Authority
+org/example/entity/Category.java
+ org.example.entity.Category
+org/example/entity/User.java
+ org.example.entity.User
+org/example/services/BookService.java
+ org.example.services.BookService
+org/example/dao/BookDaoImpl.java
+ org.example.dao.BookDaoImpl
+org/example/services/UserService.java
+ org.example.services.UserService
+org/example/dao/UserDaoImpl.java
+ org.example.dao.UserDaoImpl
+org/example/dao/AuthorDao.java
+ org.example.dao.AuthorDao
+org/example/dao/BookDao.java
+ org.example.dao.BookDao
+org/example/controller/RegistrationController.java
+ org.example.controller.RegistrationController
+org/example/controller/AuthorController.java
+ org.example.controller.AuthorController
+org/example/services/AuthorService.java
+ org.example.services.AuthorService
+org/example/dao/UserDao.java
+ org.example.dao.UserDao
+org/example/controller/CategoryController.java
+ org.example.controller.CategoryController
+org/example/dao/AuthorDaoImpl.java
+ org.example.dao.AuthorDaoImpl
+org/example/dao/CategoryDaoImpl.java
+ org.example.dao.CategoryDaoImpl
+org/example/services/AuthorServiceImpl.java
+ org.example.services.AuthorServiceImpl
+org/example/entity/Book.java
+ org.example.entity.Book
+org/example/entity/Author.java
+ org.example.entity.Author
+org/example/controller/HomeController.java
+ org.example.controller.HomeController
