@@ -32,23 +32,23 @@ org/example/dao/BookDao.java
  org.example.dao.BookDao
 org/example/controller/HomeController.java
  org.example.controller.HomeController
-org/example/controller/AuthorController.java
- org.example.controller.AuthorController
+org/example/entity/Author.java
+ org.example.entity.Author
 org/example/services/AuthorService.java
  org.example.services.AuthorService
 org/example/dao/UserDao.java
  org.example.dao.UserDao
 org/example/controller/CategoryController.java
  org.example.controller.CategoryController
-org/example/dao/AuthorDaoImpl.java
- org.example.dao.AuthorDaoImpl
+org/example/entity/Book.java
+ org.example.entity.Book
 org/example/dao/CategoryDaoImpl.java
  org.example.dao.CategoryDaoImpl
 org/example/services/AuthorServiceImpl.java
  org.example.services.AuthorServiceImpl
 org/example/controller/RegistrationController.java
  org.example.controller.RegistrationController
-org/example/entity/Author.java
- org.example.entity.Author
-org/example/entity/Book.java
- org.example.entity.Book
+org/example/dao/AuthorDaoImpl.java
+ org.example.dao.AuthorDaoImpl
+org/example/controller/AuthorController.java
+ org.example.controller.AuthorController

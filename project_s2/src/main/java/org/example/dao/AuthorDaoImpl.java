@@ -43,6 +43,9 @@ public class AuthorDaoImpl implements AuthorDao{
 
     @Override
     public void deleteAuthor(int authorId) {
-
+        Session session = sessionFactory.getCurrentSession();
+        Query query = session.createQuery("DELETE FROM Author WHERE id = :id");
+        query.setParameter("id", authorId);
+        query.executeUpdate();
     }
 }

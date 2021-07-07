@@ -24,12 +24,21 @@
                     <th>ID</th>
                     <th>Nazwa</th>
                     <th>Nazwisko</th>
+                    <sec:authorize access="hasRole('ADMIN')">
+                    <th>Usuń</th>
+                    </sec:authorize>
                 </tr>
                 <c:forEach var="authors" items="${authors}">
+                    <c:url var="delete" value="/author/delete">
+                        <c:param name="authorId" value="${authors.id}"/>
+                    </c:url>
                     <tr>
                         <td>${authors.id}</td>
                         <td>${authors.name}</td>
                         <td>${authors.surname}</td>
+                        <sec:authorize access="hasRole('ADMIN')">
+                        <td><a href="${delete}" class="btn btn-primary">Usuń</a></td>
+                        </sec:authorize>
                     </tr>
                 </c:forEach>
             </table>
